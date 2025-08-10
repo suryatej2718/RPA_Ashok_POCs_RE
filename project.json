@@ -4,10 +4,14 @@
   "description": "RPA_Ashok_POCs_Robotic_nterprise_ramework",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Azure.Activities": "[1.6.3]",
     "UiPath.Excel.Activities": "[3.2.0-preview]",
+    "UiPath.GSuite.Activities": "3.2.10",
+    "UiPath.MicrosoftOffice365.Activities": "[3.3.2-preview]",
     "UiPath.System.Activities": "[25.6.1]",
     "UiPath.Testing.Activities": "[25.4.0]",
-    "UiPath.UIAutomation.Activities": "[25.10.11-preview]"
+    "UiPath.UIAutomation.Activities": "[25.10.11-preview]",
+    "UiPath.Word.Activities": "[2.2.0]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -93,6 +97,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "474b2067-c821-4291-b310-934c5239b764",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Mail_POC.xaml",
+      "uniqueId": "fee55914-eb49-4418-aace-acd8b100dd63",
       "input": [],
       "output": []
     }
